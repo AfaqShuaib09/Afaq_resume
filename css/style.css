@@ -43,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 container {
     max-width: 1050;
     margin:0 auto;
-
 }
 
 nav {
@@ -80,10 +79,6 @@ nav .inner button {
     border-radius: 4px;
 }
 
-main.container{
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 section.profile{
     background: var(--black);
@@ -214,3 +209,27 @@ section.profile .right ul.socials li:nth-child(4) a {
 }
 
 
+.section_heading {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--pure);
+    margin-bottom: 3rem;
+    text-shadow: 0 0 1px rgba(40,54,95,0.1);
+
+}
+
+section {
+    padding: 3rem;
+}
+
+
+#main_container{
+    background: var(--primary);
+}
+
+
+.main_pack {
+    background-color: var(--primary);
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
