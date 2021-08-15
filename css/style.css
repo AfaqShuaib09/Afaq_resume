@@ -251,6 +251,10 @@ section {
     width: 125px;
 }
 
+#cert_awards::after {
+    width:325px;
+}
+
 section.about .content {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -423,3 +427,137 @@ section.skills .skills_wrap .skill_box .progress_wrap .progress_bar .tooltip {
     text-transform: uppercase;
 }
 
+section.certifications .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 0rem;
+}
+
+section.certifications .content .left .heading {
+    margin-bottom: 2rem;
+}
+
+section.certifications .content .left .heading i {
+    color: var(--fade);
+    font-size: 50px;
+}
+
+section.certifications .content .left .heading h5 {
+    font-size: 16px;
+    margin-top: 0.5rem;
+    color: var(--mild);
+}
+
+section.certifications .content .right .heading i {
+    color: var(--fade);
+    font-size: 50px;
+}
+
+section.certifications .content .right .heading h5 {
+    font-size: 16px;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    color: var(--mild);
+}
+
+section.certifications .content .left .item {
+    margin-bottom: 2.5rem;
+    margin-left: 15px;
+    position: relative;
+}
+
+
+section.certifications .content .left .item p {
+    font-size: 13px;
+    color: slateblue;
+    line-height: 1;  
+    margin-left: 25px;
+}
+
+section.certifications .content .left .certifations_wrap .item p:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -1px;
+    width: 10px;
+    height: 10px;
+    border:2px solid var(--info);
+    border-radius: 50%;
+    margin-left: 0px;
+}
+
+section.certifications .content .left .item p:hover{
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--info);
+}
+
+
+section.certifications .content .right .acheivements .item p {
+    font-size: 15px;
+    margin-left: 20px;
+    color: var(--ternary);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+section.certifications .content .right .acheivements .item p.center {
+    color: var(--fade);
+    font-weight: normal;
+    font-size: 13px;
+}
+
+section.certifications .content .right .item {
+    margin-bottom: 2rem;
+    margin-left: 15px;
+    position: relative;
+}
+
+section.certifications .content .right .acheivements .item p:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    border:2px solid var(--info);
+    border-radius: 50%;
+    margin-left: 0px;
+}
+
+section.certifications .content .right .projects_wrap .item p {
+    font-size: 13px;
+    margin-left: 20px;
+    color: var(--ternary);
+    line-height: 1.7;
+}
+
+section.certifications .content .right .projects_wrap .item .Heading {
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    color: var(--ternary);
+}
+
+section.certifications .content .right .projects_wrap .item .info {
+    color: var(--fade);
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+section.certifications .content .right .projects_wrap .item .info a{
+    color: slateblue;
+}
+
+section.certifications .content .right .projects_wrap .item p:after {
+    content: '';
+    position: absolute;
+    left: -10px;
+    top: 8px;
+    width: 10px;
+    height: 10px;
+    border:2px solid var(--info);
+    border-radius: 50%;
+    margin-left: 0px;
+}
