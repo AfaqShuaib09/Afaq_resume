@@ -209,6 +209,10 @@ section.profile .right ul.socials li:nth-child(4) a {
     color: var(--black) !important;
 }
 
+section.profile .right ul.socials li:nth-child(5) a {
+    background: var(--info);
+}
+
 
 .section_heading {
     font-size: 16px;
