@@ -209,10 +209,6 @@ section.profile .right ul.socials li:nth-child(4) a {
     color: var(--black) !important;
 }
 
-section.profile .right ul.socials li:nth-child(5) a {
-    background: var(--info);
-}
-
 
 .section_heading {
     font-size: 16px;
@@ -253,10 +249,6 @@ section {
 
 #edu_skills:after {
     width: 125px;
-}
-
-#cert_awards::after {
-    width:325px;
 }
 
 section.about .content {
@@ -564,4 +556,52 @@ section.certifications .content .right .projects_wrap .item p:after {
     border:2px solid var(--info);
     border-radius: 50%;
     margin-left: 0px;
+}
+
+section.projects {
+    padding: 10px;
+    width : 1200px;
+    margin: 20px auto;
+}
+
+section.projects ul {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+section.projects ul li {
+    list-style: none;
+    padding: 8px 20px;
+    margin: 5px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+section.projects li.active {
+    border-bottom: 1px solid slateblue;
+    /* background: var(--info); */
+    color: slateblue;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+
+section.projects .project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section.projects .project .itembox {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+}
+
+section.projects .project .itembox img {
+    position: absolute;
+    top: 0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

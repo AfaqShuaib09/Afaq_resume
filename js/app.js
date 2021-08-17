@@ -1,3 +1,4 @@
+let slideIndex = 1;
 $(document).ready(function(){
 
     $('#profile_ripple').ripples({
@@ -13,5 +14,20 @@ $(document).ready(function(){
         bar.style.width = percentage +'%';
     })
 
+    $('.projects .list').click(function(){
+        const value = $(this).attr('data-filter');
+        if (value=='all')
+        {
+            $('.projects .itembox').show('1000');
+        }
+        else{
+         $('.projects .itembox').not('.'+value).hide('1000');
+         $('.projects .itembox').filter('.'+value).show('1000');
+        }
+    })
+    // add active class on the selected category
+    $('.projects .list').click(function(){
+        $(this).addClass('active').siblings().removeClass('active');
+    })
 
 });
