@@ -209,6 +209,10 @@ section.profile .right ul.socials li:nth-child(4) a {
     color: var(--black) !important;
 }
 
+section.profile .right ul.socials li:nth-child(5) a {
+    background: var(--info);
+}
+
 
 .section_heading {
     font-size: 16px;
@@ -249,6 +253,22 @@ section {
 
 #edu_skills:after {
     width: 125px;
+}
+
+#cert_awards:after{
+    width: 320px;
+}
+
+#per_projects::after{
+    width: 125px;
+}
+
+#frameworks::after{
+    width: 150px;
+}
+
+#contact::after {
+    width: 87px;
 }
 
 section.about .content {
