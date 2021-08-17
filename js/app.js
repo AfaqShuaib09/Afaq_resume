@@ -30,4 +30,16 @@ $(document).ready(function(){
         $(this).addClass('active').siblings().removeClass('active');
     })
 
+
+    // magnify popup
+    $('.magnify').magnificPopup({
+        type: 'image',
+        gallery : {
+            enabled: true
+        },
+        zoom : {
+            enable : true
+        }
+    });
+
 });

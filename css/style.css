@@ -33,7 +33,7 @@ body {
     font-family:  'IBM Plex Sans', sans-serif;
     background: var(--dark);
     -webkit-font-smoothing: antialiased;
-    height: 5000px;
+    padding-bottom: 6rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -604,4 +604,110 @@ section.projects .project .itembox img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+section.frameworks .frameworks_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.contact .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap : 60px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+section.contact .wrapper .left > div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+section.contact .wrapper .left > div div:nth-child(1) {
+    margin-right: 10px;
+}
+
+section.contact .wrapper .left i {
+    font-size: 30px;
+    color: var(--fade);
+}
+
+section.contact .wrapper .left h4 {
+    font-size: 16px;
+    font-weight: 650;
+    margin-bottom: 5px;
+}
+
+section.contact .wrapper .left {
+    color: var(--ternary);
+}
+
+section.contact .wrapper .left h4  + span {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+section.contact .wrapper .right .form_group{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+    align-items: center;
+    margin-bottom: 14px;
+}
+
+section.contact .wrapper .right .form_group > div {
+    display: flex;
+    flex-direction: column;
+}
+
+section.contact .wrapper .right .form_group > div label {
+    color: var(--ternary);
+    margin-bottom: 8px;
+}
+
+section.contact .wrapper .right .form_group > div input , section.contact .wrapper .right .form_group.textarea_wrapper textarea {
+    padding: 9px;
+    border-radius: 4px;
+    background: transparent;
+    border: 1px solid var(--darkblue);
+    color: var(--ternary);
+    font-size: 15px;
+}
+
+section.contact .wrapper .right .form_group > div input:focus ,div input , section.contact .wrapper .right .form_group.textarea_wrapper textarea:focus{
+    border-color: var(--secondary);
+    outline: none;
+}
+
+section.contact .wrapper .right .form_group.textarea_wrapper {
+    display: block;
+    width: 100%;
+}
+
+section.contact .wrapper .right button {
+    background: var(--secondary);
+    border: none;
+    padding: 1rem 2rem;
+    color: var(--pure);
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+section.contact .wrapper .right button:hover {
+    background-color: slateblue;
+}
+
+footer {
+    background: var(--footer);
+    text-align: center;
+    padding: 2rem 0;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 14px;
+    color: var(--ternary);
 }
