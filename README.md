@@ -1,6 +1,7 @@
 # Afaq_resume
 ----
 <img align="center" src="https://github.com/AfaqShuaib09/Afaq_resume/blob/main/resume_pic.PNG" width="100%">
+
 ----
 
 
