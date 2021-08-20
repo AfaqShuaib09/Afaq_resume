@@ -42,13 +42,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 container {
-    max-width: 1050;
+    max-width: 1140px;
     margin:0 auto;
 }
 
 nav {
     background: var(--primary);
     padding: 1.6rem 0rem;
+    
 }
 
 nav .inner {
@@ -731,3 +732,47 @@ footer {
     font-size: 14px;
     color: var(--ternary);
 }
+
+/* Media Queries
+
+@media (max-width:1280px) {
+    .container {
+        max-width: 90%;
+    }
+}
+
+@media (max-width:910px) {
+    .main_pack {
+        margin-right: 0px;
+    }
+    
+}
+
+@media (max-width:900px) {
+    section.profile {
+        
+        flex-direction: column;
+        align-items: flex-start;
+        clip-path: none;
+    }
+
+
+    section.profile .left {
+        margin-bottom: 2rem;
+    }
+
+    section.profile .right {
+        align-self: flex-end;
+    }
+
+    section.prjects .project {
+        display: block;
+    }
+
+
+} */
+
+
+
+
+
